@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Header />
       <div className="relative z-0">
-        <img className="w-full h-auto sm:h-tall object-cover" src="/images/home.png" alt="Image of a house"></img>
+        <img className="w-full h-auto sm:h-tall object-cover" src="https://www.bhg.com/thmb/H9VV9JNnKl-H1faFXnPlQfNprYw=/1799x0/filters:no_upscale():strip_icc()/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.jpg" alt="Image of a house"></img>
         <div className="bg-zinc-800 bg-opacity-100 relative bottom-0 right-0 px-4 py-8 md:absolute md:bg-opacity-80 md:py-12">
           <p className="text-xl text-white text-center md:text-3xl">LIMITLESS POTENTIAL 
           FOR ANY JOB IMAGINABLE</p>
