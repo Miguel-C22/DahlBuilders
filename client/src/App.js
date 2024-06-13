@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Reviews from "./components/Reviews";
 import Services from "./components/Services";
 import YellowQuoteBtn from "./components/YellowQuoteBtn";
 
@@ -21,7 +22,7 @@ function App() {
       </div>
         <Services />
       <div className="flex flex-col items-center gap-12 my-8">
-        <h2 className="text-2xl font-bold underline underline-offset-8 decoration-yellow-500">MN’s Trusted Remodeler & General Contractor</h2>
+        <h2 className="text-2xl font-bold underline underline-offset-8 decoration-yellow-500 text-center px-4">MN’s Trusted Remodeler & General Contractor</h2>
         <div className="flex gap-12 px-24 flex-wrap md:flex-nowrap">
           <div>
             <h3 className="text-lg font-bold">Licensed and Insured General Contractor</h3>
@@ -34,6 +35,7 @@ function App() {
         </div>
           <YellowQuoteBtn />      
         </div>
+        <Reviews />
     </div>
   );
 }
