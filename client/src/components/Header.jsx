@@ -6,7 +6,7 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
 export default function Header() {
   return (
-    <div className="navbar bg-zinc-800 text-white relative z-10">
+    <div className="navbar bg-zinc-800 text-white fixed z-10 ">
     <div className="navbar-start">
       <div className="dropdown">
         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -16,7 +16,7 @@ export default function Header() {
             <li><Link to="/">Home</Link></li>
           <li>
             <a>Services</a>
-            <ul className="p-2">
+            <ul className="p-2 text-xl">
               <li><a>Submenu 1</a></li>
               <li><a>Submenu 2</a></li>
             </ul>
@@ -28,7 +28,7 @@ export default function Header() {
       <Link to="/" className="btn btn-ghost text-xl">Dahl Builders</Link>
     </div>
     <div className="navbar-center hidden lg:flex ">
-      <ul className="menu menu-horizontal px-1">
+      <ul className="menu menu-horizontal px-1 text-xl">
         <li><Link to="/">Home</Link></li>
         <li>
           <details>
@@ -43,7 +43,7 @@ export default function Header() {
             <li><Link to="/contact">Contact</Link></li>
       </ul>
     </div>
-    <div className="navbar-end flex gap-4">
+    <div className="navbar-end flex gap-4 text-xl">
       <a href="tel:+1234567890">
         <FontAwesomeIcon icon={faPhone} />
       </a>
