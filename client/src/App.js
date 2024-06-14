@@ -1,3 +1,5 @@
+import Footer from "./components/Footer";
+import Form from "./components/Form";
 import Header from "./components/Header";
 import Reviews from "./components/Reviews";
 import Services from "./components/Services";
@@ -36,6 +38,8 @@ function App() {
           <YellowQuoteBtn />      
         </div>
         <Reviews />
+        <Form />
+        <Footer />
     </div>
   );
 }
