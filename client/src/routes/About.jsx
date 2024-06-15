@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
 
 function About() {
@@ -6,7 +7,7 @@ function About() {
     <div>
         <Header />
         About
-        
+        <Footer />
     </div>
   )
 }

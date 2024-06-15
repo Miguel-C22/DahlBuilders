@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
 
 function Roofing() {
@@ -6,6 +7,7 @@ function Roofing() {
     <div>
         <Header/>
         Roofing
+        <Footer />
     </div>
   )
 }

@@ -17,12 +17,17 @@ export default function Header() {
           <li>
             <a>Services</a>
             <ul className="p-2 text-xl">
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
+              <li><a>Roofing</a></li>
+              <li><a>Decks</a></li>
+              <li><a>Kitchen</a></li>
+              <li><a>Bathroom</a></li>
+              <li><a>Basement</a></li>
+              <li><a>Flooring</a></li>
             </ul>
           </li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/gallery">Gallery</Link></li>
         </ul>
       </div>
       <Link to="/" className="btn btn-ghost text-xl">Dahl Builders</Link>
@@ -34,13 +39,18 @@ export default function Header() {
           <details>
             <summary>Services</summary>
             <ul className="p-2 bg-zinc-800 rounded-b-lg rounded-t-none">
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
+              <li><a>Roofing</a></li>
+              <li><a>Decks</a></li>
+              <li><a>Kitchen</a></li>
+              <li><a>Bathroom</a></li>
+              <li><a>Basement</a></li>
+              <li><a>Flooring</a></li>
             </ul>
           </details>
         </li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/gallery">Gallery</Link></li>
       </ul>
     </div>
     <div className="navbar-end flex gap-4 text-xl">
