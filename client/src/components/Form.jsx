@@ -14,7 +14,7 @@ function Form() {
             <input type="email" placeholder="Email" required  className="input input-bordered w-full max-w-xs" />
             <input type="tel" placeholder="Phone Number" required  className="input input-bordered w-full max-w-xs" />
         </div>
-        <textarea className="textarea textarea-bordered w-full" required  placeholder="How Can We Help You!"></textarea>
+        <textarea className="textarea textarea-bordered w-full h-96" required  placeholder="How Can We Help You!"></textarea>
         <div className='w-full'>
             <FormSubmitBtn />
         </div>
