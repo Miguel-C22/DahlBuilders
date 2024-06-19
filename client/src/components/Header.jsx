@@ -17,7 +17,7 @@ export default function Header() {
           <li>
             <a>Services</a>
             <ul className="p-2 text-xl">
-              <li><a>Roofing</a></li>
+              <li><Link to="/roofing">Roofing</Link></li>
               <li><a>Decks</a></li>
               <li><a>Kitchen</a></li>
               <li><a>Bathroom</a></li>
@@ -39,7 +39,7 @@ export default function Header() {
           <details>
             <summary>Services</summary>
             <ul className="p-2 bg-zinc-800 rounded-b-lg rounded-t-none">
-              <li><a>Roofing</a></li>
+            <li><Link to="/roofing">Roofing</Link></li>
               <li><a>Decks</a></li>
               <li><a>Kitchen</a></li>
               <li><a>Bathroom</a></li>
