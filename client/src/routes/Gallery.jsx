@@ -14,7 +14,7 @@ function Gallery() {
             />
             <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-8">
                 <div className="max-w-3xl mx-auto">
-                    <h3 className="text-4xl text-white md:text-6xl">Project Gallery</h3>
+                    <h1 className="text-4xl text-white md:text-6xl">Project Gallery</h1>
                     <p className="text-white pt-2 hidden sm:block">
                         Check out some of our recent work. <br /> Bathroom remodeling, kitchen remodeling, flooring, decks, fencing and more!
                     </p>

@@ -18,11 +18,11 @@ export default function Header() {
             <a>Services</a>
             <ul className="p-2 text-xl">
               <li><Link to="/roofing">Roofing</Link></li>
-              <li><a>Decks</a></li>
-              <li><a>Kitchen</a></li>
-              <li><a>Bathroom</a></li>
-              <li><a>Basement</a></li>
-              <li><a>Flooring</a></li>
+              <li><Link to="/roofing">Decks</Link></li>
+              <li><Link to="/roofing">Kitchen</Link></li>
+              <li><Link to="/roofing">Bathroom</Link></li>
+              <li><Link to="/roofing">Basement</Link></li>
+              <li><Link to="/roofing">Flooring</Link></li>
             </ul>
           </li>
           <li><Link to="/about">About</Link></li>
@@ -39,12 +39,12 @@ export default function Header() {
           <details>
             <summary>Services</summary>
             <ul className="p-2 bg-zinc-800 rounded-b-lg rounded-t-none">
-            <li><Link to="/roofing">Roofing</Link></li>
-              <li><a>Decks</a></li>
-              <li><a>Kitchen</a></li>
-              <li><a>Bathroom</a></li>
-              <li><a>Basement</a></li>
-              <li><a>Flooring</a></li>
+              <li><Link to="/roofing">Roofing</Link></li>
+              <li><Link to="/roofing">Decks</Link></li>
+              <li><Link to="/roofing">Kitchen</Link></li>
+              <li><Link to="/roofing">Bathroom</Link></li>
+              <li><Link to="/roofing">Basement</Link></li>
+              <li><Link to="/roofing">Flooring</Link></li>
             </ul>
           </details>
         </li>

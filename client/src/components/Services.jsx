@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import useWindowSize from '../customHooks/useWindowSize';
 import services from "../data/services"
