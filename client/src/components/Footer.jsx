@@ -2,6 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -21,15 +22,15 @@ function Footer() {
   </nav> 
   <nav>
     <h6 className="footer-title">Company</h6> 
-    <a className="link link-hover">Home</a>
-    <a className="link link-hover">Contact</a>
-    <a className="link link-hover">About</a>
-    <a className="link link-hover">Flooring</a>
-    <a className="link link-hover">Decks</a>
-    <a className="link link-hover">Bathroom</a>
-    <a className="link link-hover">Basement</a>
-    <a className="link link-hover">Kitchen</a>
-    <a className="link link-hover">Roofing</a>
+    <Link to="/">Home</Link>
+    <Link to="/contact">Contact</Link>
+    <Link to="/about">About</Link>
+    <Link to="/roofing">Roofing</Link>
+    <Link to="/roofing">Decks</Link>
+    <Link to="/roofing">Kitchen</Link>
+    <Link to="/roofing">Bathroom</Link>
+    <Link to="/roofing">Basement</Link>
+    <Link to="/roofing">Flooring</Link>
   </nav> 
   <nav>
     <h6 className="footer-title">Contact</h6> 
