@@ -11,14 +11,14 @@ function Roofing() {
       <Header/>
       <div className="relative z-0 pt-16">
         <img
-          className="w-full h-auto object-cover sm:max-h-screen md:max-h-[70vh] lg:max-h-screen 2xl:max-h-[50vh]"
+          className=" w-full h-[70vh] object-cover sm:max-h-screen md:max-h-[70vh] lg:max-h-screen 2xl:max-h-[50vh]"
           src="/images/services/kitchen/kitchenHeaderImg.png"
           alt="Image of a house"
         />
-        <div className="absolute inset-0 mt-12 sm:mt-0 left-0 right-0  flex flex-col justify-center gap-4 items-center text-center px-8">
-          <div className="w-full md:w-3/4 lg:w-1/2">
+        <div className="absolute inset-0 mt-12 sm:mt-0 left-0 right-0 flex flex-col justify-center gap-12 items-center text-center px-8">
+          <div className="w-full md:w-3/4 lg:w-1/2 flex flex-col gap-2">
             <h1 className="text-4xl text-white md:text-6xl">Kitchen Remodeling</h1>
-            <p className="text-white pt-2 hidden sm:block ">
+            <p className="text-white pt-2">
               The kitchen is the heart of the home, where friends and family come together to eat and spend time together. Don’t let a cramped or outdated kitchen turn the joy of cooking into something you dread.
             </p>
           </div>

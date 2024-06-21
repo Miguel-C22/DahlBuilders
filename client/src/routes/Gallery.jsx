@@ -8,14 +8,14 @@ function Gallery() {
         <Header /> 
         <div className="relative z-0 pt-16">
             <img
-                className="w-full h-auto object-cover sm:max-h-screen md:max-h-[70vh] lg:max-h-screen 2xl:max-h-[50vh]"
+                className=" w-full h-[70vh] object-cover sm:max-h-screen md:max-h-[70vh] lg:max-h-screen 2xl:max-h-[50vh]"
                 src="/images/gallery/galleryHeaderImage.png"
                 alt="Image of a house"
             />
             <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-8">
-                <div className="max-w-3xl mx-auto">
+                <div className="max-w-3xl mx-auto flex flex-col gap-2">
                     <h1 className="text-4xl text-white md:text-6xl">Project Gallery</h1>
-                    <p className="text-white pt-2 hidden sm:block">
+                    <p className="text-white pt-2">
                         Check out some of our recent work. <br /> Bathroom remodeling, kitchen remodeling, flooring, decks, fencing and more!
                     </p>
                 </div>
