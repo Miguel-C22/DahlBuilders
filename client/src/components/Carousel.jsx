@@ -50,9 +50,8 @@ function Carousel() {
                 <div className="
                 bg-opacity-100  px-4 py-8 
                 absolute 
-                 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
-                    <p className="text-3xl text-white text-center text-shadow-dark-lg">{data.text}
-                    FOR ANY JOB IMAGINABLE</p>
+                left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
+                <p className="text-3xl text-white text-center text-shadow-dark-lg">{data.text}</p>
                 </div>
             </div>
         )
