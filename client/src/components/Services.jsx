@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import { useNavigate } from 'react-router-dom'; 
 import useWindowSize from '../customHooks/useWindowSize';
 import services from "../data/services"
 
@@ -7,17 +7,14 @@ function Services() {
     const [selectedService, setSelectedService] = useState(null)
     const windowSize = useWindowSize()
 
-    const navigate = useNavigate(); // Initialize useNavigate
-    
-        
-    
+    const navigate = useNavigate(); 
 
     const handleNavigation = (route) => {
-      navigate(route); // Navigate to the desired route
+      navigate(route); 
     };
  
   return (
-    <div className="bg-zinc-800 flex gap-12 flex-wrap py-12 px-4 justify-center">
+    <div className="bg-zinc-800 flex gap-12 flex-wrap py-12 px-4 justify-center ">
         {services.map(data => {
             return (
                 <div key={data.service} id={data.id} onClick={(e) => {setSelectedService(e.currentTarget.id)}}>

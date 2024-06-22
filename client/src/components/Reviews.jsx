@@ -29,9 +29,9 @@ function Reviews() {
       </div>
     </div>
   ))}
-  <div className="flex gap-10 justify-center mt-12">
-    <button onClick={prevSlide} className="btn btn-circle left-5 border-4 text-white text-lg">❮</button>
-    <button onClick={nextSlide} className="btn btn-circle right-5 border-4 text-white text-lg">❯</button>
+  <div className="flex gap-24 justify-center mt-12">
+    <button onClick={prevSlide} className="btn btn-circle left-5 border-4 text-white text-xl">❮</button>
+    <button onClick={nextSlide} className="btn btn-circle right-5 border-4 text-white text-xl">❯</button>
   </div>
 </div>
   )

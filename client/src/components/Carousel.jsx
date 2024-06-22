@@ -36,7 +36,7 @@ function Carousel() {
     };
  
   return (
-    <div className="carousel w-full">
+    <div className="carousel w-full mt-12">
     {carouselImages.map((data, index) => {
         return (
             <div key={index} id={`slide${index}`}  className={`carousel-item relative w-full ${count === index ? 'block' : 'hidden'}`}>
