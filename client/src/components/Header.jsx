@@ -27,7 +27,7 @@ export default function Header() {
           </li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/contact">Contact</Link></li>
-          <li><Link to="/gallery">Gallery</Link></li>
+          {/* <li><Link to="/gallery">Gallery</Link></li> */}
         </ul>
       </div>
       <Link to="/" className="btn btn-ghost text-xl">Dahl Builders</Link>
@@ -50,7 +50,7 @@ export default function Header() {
         </li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/contact">Contact</Link></li>
-            <li><Link to="/gallery">Gallery</Link></li>
+            {/* <li><Link to="/gallery">Gallery</Link></li> */}
       </ul>
     </div>
     <div className="navbar-end flex gap-4 text-xl">
