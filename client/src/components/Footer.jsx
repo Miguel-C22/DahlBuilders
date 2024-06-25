@@ -8,7 +8,8 @@ function Footer() {
   return (
     <footer className="footer p-10 bg-zinc-800 text-white mt-12">
   <aside>
-   <img className='w-32' src="https://graphicsfamily.com/wp-content/uploads/edd/2021/07/Construction-Company-Contractor-Handyman-Logo-Design-PNG-Transparent.png" alt="" srcset="" />
+   {/* <img className='w-32' src="https://graphicsfamily.com/wp-content/uploads/edd/2021/07/Construction-Company-Contractor-Handyman-Logo-Design-PNG-Transparent.png" alt="" srcset="" /> */}
+   <Link to="/"><img src="/images/logo2.png" className='w-48' alt="" srcset="" /></Link>
     <p>Copyright © 2024 - All right reserved by Dahl Builders</p>
   </aside> 
   <nav>

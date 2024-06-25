@@ -6,11 +6,11 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
 export default function Header() {
   return (
-    <div className="navbar bg-zinc-800 text-white fixed z-20 ">
+    <div className="navbar bg-zinc-800 text-white fixed z-20">
     <div className="navbar-start">
       <div className="dropdown">
         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
         </div>
         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-zinc-800 text-white rounded-box w-52">
             <li><Link to="/">Home</Link></li>
@@ -28,9 +28,18 @@ export default function Header() {
           <li><Link to="/about">About</Link></li>
           <li><Link to="/contact">Contact</Link></li>
           {/* <li><Link to="/gallery">Gallery</Link></li> */}
+          <div className="flex gap-4 text-xl mt-4">
+            <a href="tel:+1234567890">
+              <FontAwesomeIcon icon={faPhone} />
+            </a>
+            <a href="mailto:example@example.com">
+              <FontAwesomeIcon icon={faEnvelope} />
+            </a>
+          </div>
         </ul>
       </div>
-      <Link to="/" className="btn btn-ghost text-xl">Dahl Builders</Link>
+      {/* <Link to="/" className="btn btn-ghost text-xl">Dahl Builders</Link> */}
+      <Link to="/"><img src="/images/logo2.png" className='w-32 hidden lg:block ml-4' alt="" srcset="" /></Link>
     </div>
     <div className="navbar-center hidden lg:flex ">
       <ul className="menu menu-horizontal px-1 text-xl">
@@ -53,7 +62,10 @@ export default function Header() {
             {/* <li><Link to="/gallery">Gallery</Link></li> */}
       </ul>
     </div>
-    <div className="navbar-end flex gap-4 text-xl">
+    <div className='navbar-center lg:hidden'>
+      <Link to="/"><img src="/images/logo2.png" className='w-32 ' alt="" srcset="" /></Link>
+    </div>
+    <div className="navbar-end flex gap-4 text-2xl mr-4">
       <a href="tel:+1234567890">
         <FontAwesomeIcon icon={faPhone} />
       </a>
@@ -64,3 +76,4 @@ export default function Header() {
   </div>
   )
 }
+// lg:navbar-end lg:flex lg:gap-4 lg:text-xl lg:block hidden
