@@ -39,7 +39,7 @@ export default function Header() {
         </ul>
       </div>
       {/* <Link to="/" className="btn btn-ghost text-xl">Dahl Builders</Link> */}
-      <Link to="/"><img src="/images/logo2.png" className='w-32 hidden lg:block ml-4' alt="" srcset="" /></Link>
+      <Link to="/"><img src="/images/logo.png" className='w-32 hidden lg:block ml-4' alt="" srcset="" /></Link>
     </div>
     <div className="navbar-center hidden lg:flex ">
       <ul className="menu menu-horizontal px-1 text-xl">
@@ -63,7 +63,7 @@ export default function Header() {
       </ul>
     </div>
     <div className='navbar-center lg:hidden'>
-      <Link to="/"><img src="/images/logo2.png" className='w-32 ' alt="" srcset="" /></Link>
+      <Link to="/"><img src="/images/logo.png" className='w-32 ' alt="" srcset="" /></Link>
     </div>
     <div className="navbar-end flex gap-4 text-2xl mr-4">
       <a href="tel:+1234567890">
