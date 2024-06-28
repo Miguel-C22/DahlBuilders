@@ -4,7 +4,7 @@ import FormSubmitBtn from './FormSubmitBtn'
 function Form() {
   return (
     <div className='text-center flex flex-col gap-12'>
-        <h2 className='text-2xl font-bold'>REQUEST A QUOTE</h2>
+        <h2 className='text-3xl font-bold'>REQUEST A QUOTE</h2>
         <form action="https://api.web3forms.com/submit" method="POST" className='flex flex-col flex-wrap items-center m-auto gap-8'>
         <input type="hidden" name="access_key" value="5b05f2ae-1c9c-405a-92d9-840648b31621" />
         <input type="hidden" name="subject" value="Quote For Dahl Builders"></input>

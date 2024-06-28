@@ -6,8 +6,8 @@ function About() {
   return (
     <div>
         <Header />
-        <div className="z-0 pt-24">
-        <h1 className="text-5xl text-center font-bold underline underline-offset-8 decoration-yellow-500">About Us</h1>
+        <div className="z-0 pt-32">
+        <h1 className="text-3xl text-center font-bold underline underline-offset-8 decoration-yellow-500">About Us</h1>
           <div className="flex flex-col gap-4 max-w-[80vh] px-4 mt-12 mx-auto">
             <p>If you’re starting a home remodeling project, work with the professionals at Construction Con Dios, 
             LLC and get great results and outstanding service. Located in Andover, 
